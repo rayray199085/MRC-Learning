@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D02688D21FD355B0049709D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D02688C21FD355B0049709D /* main.m */; };
+		0D02689521FD363A0049709D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D02689421FD363A0049709D /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		0D02688921FD355B0049709D /* mrcLearning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mrcLearning; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D02688C21FD355B0049709D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D02689321FD363A0049709D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0D02689421FD363A0049709D /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				0D02688C21FD355B0049709D /* main.m */,
+				0D02689321FD363A0049709D /* Person.h */,
+				0D02689421FD363A0049709D /* Person.m */,
 			);
 			path = mrcLearning;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D02689521FD363A0049709D /* Person.m in Sources */,
 				0D02688D21FD355B0049709D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +245,7 @@
 		0D02689121FD355B0049709D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -247,6 +254,7 @@
 		0D02689221FD355B0049709D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
